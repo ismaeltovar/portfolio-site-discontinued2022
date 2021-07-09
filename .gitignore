@@ -5,7 +5,4 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 gemfiles/
-vendor/bundle/
-vendor/cache/
-vendor/gems/
-vendor/ruby/
+vendor/

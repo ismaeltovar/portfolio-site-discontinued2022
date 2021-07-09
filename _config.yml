@@ -207,7 +207,7 @@ defaults:
       comments: false  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
       readtime: true
-      last-updated: YYYY-MM-DD
+      #last-updated:
   -
     scope:
       path: "" # any file that's not a post will be a "page" layout by default

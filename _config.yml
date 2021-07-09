@@ -9,8 +9,8 @@ author: Ismael Tovar
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  Portfolio: "portfolio"
+  About: "about.md"
+  Portfolio: "portfolio.md"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -204,8 +204,10 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: false  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+      readtime: true
+      last-updated: YYYY-MM-DD
   -
     scope:
       path: "" # any file that's not a post will be a "page" layout by default

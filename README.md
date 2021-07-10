@@ -1,6 +1,6 @@
 ## IsmaelTovar.github.io
 
-Jekyll generated site.
+Jekyll generated site using the Beautiful Jekyll Theme.
 
 ## License
 

@@ -9,8 +9,8 @@ author: Ismael Tovar
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About: "about.md"
-  Portfolio: "portfolio.md"
+  About Me: "aboutme"
+  Portfolio: "portfolio"
 
 # --- Logo --- #
 

@@ -11,10 +11,6 @@ author: Ismael Tovar
 navbar-links:
   About: "about.md"
   Portfolio: "portfolio.md"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://ismaeltovar.github.io"
 
 # --- Logo --- #
 

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "How to add a command to your PATH on Linux"
+thumbnail-img: /assets/img/bash-161382_1280.png
 date: 2021-07-11
+last-updated: 2021-07-13
 tags: linux bash
 ---
 

@@ -78,4 +78,4 @@ which: no code in (/file/path:/file/path)
 
 Then too bad, so sad. You have failed your job. Jokes aside, open `.bashrc` and double check that you did not accidentally missed a typo when you added the `export PATH=$PATH` line at the end of `.bashrc`. Additionally, check that you typed the file path correctly (FYI, `/` stands for the root directory). If you need more help with file paths in Linux, [here is a useful website that can help](https://opensource.com/article/19/8/understanding-file-paths-linux).
 
-I hope this article helped! If you don't mind, share this article with someone that you think might find it useful. If you find an error or typo in one of my articles, please let me know.
+I hope this article helped! Make sure to share this article with someone who might find it useful. If you find an error or typo in one of my articles, please let me know.

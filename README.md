@@ -1,4 +1,4 @@
-## IsmaelTovar.github.io
+## IsmaelTovar.com
 
 Jekyll generated site using the Beautiful Jekyll Theme.
 

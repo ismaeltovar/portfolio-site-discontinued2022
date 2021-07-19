@@ -3,7 +3,7 @@ layout: post
 title: "How to add a command to your PATH on Linux"
 thumbnail-img: /assets/img/bash-161382_1280.png
 date: 2021-07-11
-last-updated: 2021-07-13
+last-updated: 2021-07-18
 tags: linux bash
 ---
 
@@ -15,11 +15,11 @@ bash: command not found
 
 Wait, but you just installed the package! Why does it say that it is not there?
 
-You may be getting this error because you don't have the command in your PATH. This may seem more complicated than it sounds, but adding a command to your PATH is actually really simple. Here are the steps to adding a command to your PATH.
+You may be getting this error because you don't have the directory that contains the command in your PATH. This may seem more complicated than it sounds, but adding a directory to your PATH is actually really simple. Here are the steps to adding a directory to your PATH.
 
 ## Search for the .bashrc file
 
-In order to add a command to your PATH, you need to locate the `.bashrc` file. It's usually located in the Home directory. To search for the `.bashrc` file in the Home directory, type the following commands in the terminal:
+In order to add a directory to your PATH, you need to locate the `.bashrc` file. It's usually located in the Home directory. To search for the `.bashrc` file in the Home directory, type the following commands in the terminal:
 
 ```
 cd ~
@@ -42,11 +42,13 @@ Scroll to the bottom and add the following line at the end of the file:
 export PATH=$PATH:/path/to/folder/with/command
 ```
 
-To give you an example, if I would like to add the command `code` to my PATH:
+To give you an example, if I would like to add the 'bin' directory in the 'VSCode-linux-x64' directory PATH:
 
 ```
 export PATH=$PATH:/home/ismael/VSCode-linux-x64/bin
 ```
+
+If you don't know which directory contains the command you want, try looking for a directory named 'bin' in the root directory of the command's package. That is where you will usually find the commands installed with a package.
 
 Save the document and exit the editor (`Ctr+S` then `Ctr+X` if you used the `nano` command above).
 
@@ -58,17 +60,17 @@ Close the terminal window and open another terminal window to get a new terminal
 which command
 ```
 
-`command` being the name of the command you added to your PATH in the above steps
+`command` being the name of the command inside the directory you added to your PATH using the above steps
 
-If you get an output that looks like this:
+If you get an output that looks something like this:
 
 ```
 /home/ismael/VSCode-linux-x64/bin/code
 ```
 
-Then you have successfully added the command to your PATH! Now you should be able to run the command without the `bash: command not found` error.
+Then you have successfully added the directory to your PATH! You should be able to run the command without the `bash: command not found` error anymore.
 
-If you get an ouput that looks something like this:
+If you get an output that looks something like this:
 
 ```
 which: no code in (/file/path:/file/path)
@@ -76,4 +78,4 @@ which: no code in (/file/path:/file/path)
 
 Then too bad, so sad. You have failed your job. Jokes aside, open `.bashrc` and double check that you did not accidentally missed a typo when you added the `export PATH=$PATH` line at the end of `.bashrc`. Additionally, check that you typed the file path correctly (FYI, `/` stands for the root directory). If you need more help with file paths in linux, [here is a useful website that can help](https://opensource.com/article/19/8/understanding-file-paths-linux).
 
-I hope this article helped! If you don't mind, share this article with someone that you think might find it useful.
+I hope this article helped! If you don't mind, share this article with someone that you think might find it useful. If you find an error or typo in one of my articles, please let me know.

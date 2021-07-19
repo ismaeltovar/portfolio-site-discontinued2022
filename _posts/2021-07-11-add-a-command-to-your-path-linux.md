@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "How to add a command to your PATH on Linux"
+title: "How to add a directory to your PATH on Linux"
 thumbnail-img: /assets/img/bash-161382_1280.png
 date: 2021-07-11
-last-updated: 2021-07-18
+last-updated: 2021-07-19
 tags: linux bash
 ---
 
@@ -42,13 +42,13 @@ Scroll to the bottom and add the following line at the end of the file:
 export PATH=$PATH:/path/to/folder/with/command
 ```
 
-To give you an example, if I would like to add the 'bin' directory in the 'VSCode-linux-x64' directory PATH:
+To give you an example, if I would like to add the `bin` directory in the `VSCode-linux-x64` directory PATH:
 
 ```
 export PATH=$PATH:/home/ismael/VSCode-linux-x64/bin
 ```
 
-If you don't know which directory contains the command you want, try looking for a directory named 'bin' in the root directory of the command's package. That is where you will usually find the commands installed with a package.
+If you don't know which directory contains the command you want, try looking for a directory named `bin` in the root directory of the command's package. That is where you will usually find the commands installed with a package.
 
 Save the document and exit the editor (`Ctr+S` then `Ctr+X` if you used the `nano` command above).
 
@@ -76,6 +76,6 @@ If you get an output that looks something like this:
 which: no code in (/file/path:/file/path)
 ```
 
-Then too bad, so sad. You have failed your job. Jokes aside, open `.bashrc` and double check that you did not accidentally missed a typo when you added the `export PATH=$PATH` line at the end of `.bashrc`. Additionally, check that you typed the file path correctly (FYI, `/` stands for the root directory). If you need more help with file paths in linux, [here is a useful website that can help](https://opensource.com/article/19/8/understanding-file-paths-linux).
+Then too bad, so sad. You have failed your job. Jokes aside, open `.bashrc` and double check that you did not accidentally missed a typo when you added the `export PATH=$PATH` line at the end of `.bashrc`. Additionally, check that you typed the file path correctly (FYI, `/` stands for the root directory). If you need more help with file paths in Linux, [here is a useful website that can help](https://opensource.com/article/19/8/understanding-file-paths-linux).
 
 I hope this article helped! If you don't mind, share this article with someone that you think might find it useful. If you find an error or typo in one of my articles, please let me know.

@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-Howdy! I'm Ismael Tovar, a High School student in the United States. I have a wide variety of interests, but I am mainly interested in technology and computers. Currently, I am learning Javascript, Html, CSS, and React.
+Howdy! I'm Ismael Tovar, a High School student in the United States. I have a wide variety of interests, but I am mainly interested in technology and computers. Currently, I am learning Javascript, Html, CSS, and React. You can follow me on any of my social media profiles (links are located in the footer of this website).
 
 To checkout the projects I am working on, <a href="https://github.com/ismaeltovar?tab=repositories" target="_blank">click here</a>.
 

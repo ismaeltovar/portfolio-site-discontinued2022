@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "How to add a directory to your PATH on Linux"
-thumbnail-img: /assets/img/bash-161382_1280.png
+thumbnail-img: /assets/img/coverImg-1.png
 date: 2021-07-11
-last-updated: 2021-07-19
+last-updated: 2021-08-04
 tags: linux bash
 ---
 
@@ -79,3 +79,5 @@ which: no code in (/file/path:/file/path)
 Then too bad, so sad. You have failed your job. Jokes aside, open `.bashrc` and double check that you did not accidentally missed a typo when you added the `export PATH=$PATH` line at the end of `.bashrc`. Additionally, check that you typed the file path correctly (FYI, `/` stands for the root directory). If you need more help with file paths in Linux, [here is a useful website that can help](https://opensource.com/article/19/8/understanding-file-paths-linux).
 
 I hope this article helped! Make sure to share this article with someone who might find it useful. If you find an error or typo in one of my articles, please let me know.
+
+**NOTE: I AM NOT LIABLE FOR ANY DAMAGES THAT HAPPEN BECAUSE OF YOU FOLLOWING ONE OF MY ARTICLES. This is not to say the infomation here is incorrect. Please be careful.**

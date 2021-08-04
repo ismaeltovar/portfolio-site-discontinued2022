@@ -12,3 +12,6 @@ Projects used in this repostiroy include:
 - [Beautiful Jekyll Theme](https://github.com/daattali/beautiful-jekyll)
 
 See LICENSE in the root folder of the 'main' branch for more details.
+
+## Issues
+If you encounter a bug or issue, create an issue on Github located at: https://github.com/ismaeltovar/ismaeltovar.com/issues. You may also leave a suggestion, if you wish.

@@ -12,9 +12,14 @@ To contact me, [click here](https://ismaeltovar.com/contact/).
 ## More info about me
 
 Favorite Linux Distros: 
-1. Monjaro
-2. Kubuntu
-3. Linux Mint
+- <a href="https://manjaro.org/" target="_blank">Manjaro</a>
+- <a href="https://kubuntu.org/" target="_blank">Kubuntu</a>
+- <a href="https://linuxmint.com/" target="_blank">Linux Mint</a>
+
+Favorite software:
+- IDE: <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>
+- Text Editor: <a href="https://kate-editor.org/" target="_blank">Kate</a>
+- Flash Card App: <a href="https://apps.ankiweb.net/" target="_blank">Anki</a>
 
 Certifications:
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a0d94245-1341-45bf-9ead-9b188450c6bf" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>

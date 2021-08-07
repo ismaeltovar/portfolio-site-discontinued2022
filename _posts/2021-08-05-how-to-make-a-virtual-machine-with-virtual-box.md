@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to make a virtual machine with VirtualBox"
-thumbnail-img: /assets/img/virtualbox/coverImg-2.png
+thumbnail-img: /assets/img/virtualbox/motherboard.jpg
 date: 2021-08-05
 last-updated: 2021-08-07
 tags: linux virtualbox

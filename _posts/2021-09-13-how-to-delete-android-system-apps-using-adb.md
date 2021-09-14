@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to delete Android system apps and bloatware using ADB (No Root)"
-thumbnail-img: 
+thumbnail-img: ../assets/img/adb-android/phone.jpg
 date: 2021-09-13
 last-updated: 
 tags: android adb

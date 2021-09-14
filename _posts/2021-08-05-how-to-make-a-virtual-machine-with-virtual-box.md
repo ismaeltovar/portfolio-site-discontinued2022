@@ -2,8 +2,9 @@
 layout: post
 title: "How to make a virtual machine with VirtualBox"
 thumbnail-img: /assets/img/virtualbox/motherboard.jpg
+cover-img:
 date: 2021-08-05
-last-updated: 2021-08-07
+last-updated: 2021-09-13
 tags: linux virtualbox
 ---
 
@@ -131,3 +132,5 @@ Once the virtual machine has started, go through the installation process as if 
 I hope this article helped! Make sure to share this article with someone who might find it useful. If you find an error or typo in one of my articles, please let me know.
 
 **NOTE: I AM NOT LIABLE FOR ANY DAMAGES THAT HAPPEN BECAUSE OF YOU FOLLOWING ONE OF MY ARTICLES. This is not to say the information here is incorrect. Please be careful.**
+
+Thumbnail image by source: <a href="https://pixabay.com/photos/board-electronics-computer-453758/" target="_blank">https://pixabay.com/photos/board-electronics-computer-453758/</a>

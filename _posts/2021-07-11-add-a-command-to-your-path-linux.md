@@ -2,8 +2,9 @@
 layout: post
 title: "How to add a directory to your PATH on Linux"
 thumbnail-img: /assets/img/coverImg-1.png
+cover-img: 
 date: 2021-07-11
-last-updated: 2021-08-05
+last-updated: 2021-09-13
 tags: linux bash
 ---
 
@@ -81,3 +82,5 @@ Then too bad, so sad. You have failed your job. Jokes aside, open `.bashrc` and 
 I hope this article helped! Make sure to share this article with someone who might find it useful. If you find an error or typo in one of my articles, please let me know.
 
 **NOTE: I AM NOT LIABLE FOR ANY DAMAGES THAT HAPPEN BECAUSE OF YOU FOLLOWING ONE OF MY ARTICLES. This is not to say the information here is incorrect. Please be careful.**
+
+Thumbnail image by source: <a href="https://pixabay.com/vectors/bash-terminal-linux-unix-computer-161382/" target="_blank">https://pixabay.com/vectors/bash-terminal-linux-unix-computer-161382/</a>

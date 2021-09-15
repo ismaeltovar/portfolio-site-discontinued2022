@@ -34,14 +34,13 @@ Once there, go to Software Info and look for the option called "Build number".
 
 ![Build Number option](../assets/img/adb-android/build-num.png)
 
-  Click on the Build number option repeatedly until you receive a message somewhere on the screen indicating that you "are now a developer". Go back to the main menu of the settings. Somewhere beside the About Phone option from earlier, you should see a new option called "Developer options". If you see it, then you have successfully enabled developer options.
-
+ Click on the Build number option repeatedly until you receive a message somewhere on the screen indicating that you "are now a developer". Go back to the main menu of the settings. You should see a new option called "Developer options" somewhere near the About Phone option from earlier.
 
 ![Developer options option](../assets/img/adb-android/developer-options.png) 
  
 If you see it, then you have successfully enabled developer options.
 
-*Note: Please be careful when navigating the Developer options.*
+*Note: Please be careful when navigating the Developer options, as it can be quite dangerous.*
 
 Next, you will need to enable USB debugging. To enable this, go to Developer options and scroll down until you see the option "USB debugging" under the Debugging section. 
 
@@ -53,21 +52,21 @@ If you are concerned about security, you can simply disable Developer options on
 
 ## Step 3: Connect your device to your computer
 
-Get your USB cable out and connect your phone to your computer over USB. 
+Get your USB cable out and connect your phone to your computer via USB. 
 
 If a dialog comes up that looks like this: 
 
 ![USB debugging dialog](../assets/img/adb-android/debugging-dialog.png)
 
-Click on "Ok". This will allow computer to connect to your Android phone via USB debugging.
+Click on "Ok". This will allow your computer to connect to your Android phone using USB debugging.
 
-To check your Android device is connected to your computer, run `adb devices` if you installed the SDK via your distribution's package manager. If you downloaded the SDK via Google's website, `cd` into the platform-tools directory that contains the file "adb" (adb.exe on Windows) and run `adb devices`.
+To check wether your Android device is connected to your computer, run `adb devices` (if you installed the SDK via your distribution's package manager). If you downloaded the SDK via Google's website, `cd` into the platform-tools directory that contains the file adb (adb.exe on Windows) and run `adb devices`.
 
 ![adb devices command output](../assets/img/adb-android/adb-devices.png)
 
-If you see the name of your device displayed under "List of devices attached", you should be good to go.
+If you see the name of your device displayed under "List of devices attached" without "unauthorized" next to it, you should be good to go.
 
-Optional: In the USB options (usually located in the notifications bar), select the "File transfer" option and select "Just Once" (if it isn't already the default option). This will help prevent possible issues later on.
+*Optional: In the USB options (usually located in the notifications bar), select the "File transfer" option and select "Just Once" (if it isn't already the default option). This will help prevent possible issues later on.*
 
 ![USB options](../assets/img/adb-android/usb-options.png)
 
@@ -75,7 +74,7 @@ Optional: In the USB options (usually located in the notifications bar), select 
 
 There are 3 ways you can go about doing this.
 
-The first way is to run `pm list packages` and find the package name that sounds like the app you want to remove (on Linux, you can add ` | grep "search term"` to the end of the above command to make the search process a little easier). 
+The first way is to get into your Android device's shell (by running `adb shell`) and run `pm list packages` to list all of your device's packages. Then, find the package name that sounds like the app you want to remove (on Linux, you can add ``` | grep search-term``` to the end of the above command to make the search process a little easier). 
 
 I would not recommend this method because it is very easy to mistaken one package for another (which can have *really* bad consequences). Plus, it can get quite tedious at times.
 
@@ -83,19 +82,19 @@ The second method you can use is to search for the app you want to remove on the
 
 ![Google app download page](../assets/img/adb-android/google-play.png)
 
-In this example, the package name is `com.google.android.googlequicksearchbox`. 
+In this example, the package name of the Google app is `com.google.android.googlequicksearchbox`. 
 
-The last method is kind of a last resort in case you can't find or identify an app's package name with both of the above methods. You can <a href="https://play.google.com/store/search?q=package%20name&c=apps" target="_blank">download an app in the app store that helps you look up the package name of a particular app.</a> My preferred app is <a href="https://play.google.com/store/apps/details?id=com.csdroid.pkg" target="_blank">Package Name Viewer 2.0</a>, but you can feel free to use whichever app you like.
+The last method is kind of a last resort in case you can't find or identify an app's package name with any of the above methods. You can <a href="https://play.google.com/store/search?q=package%20name&c=apps" target="_blank">download an app in the app store that helps you look up the package name of a particular app.</a> My preferred app is <a href="https://play.google.com/store/apps/details?id=com.csdroid.pkg" target="_blank">Package Name Viewer 2.0</a>, but you can feel free to use whichever app you like.
 
 ## Step 5: Run some commands
 
 Now comes the fun part. Once you have found the correct package name, you may now begin removing the app. To remove the app go into your Android device's shell by running `adb shell`. 
 
-Once there, run `pm uninstall -k --user 0 package.name` (replacing package.name with the name of the package you searched for earlier). You should see "Success" after running the above command. If see anything other than "Success", then either you don't have the app to begin with or you misspelled the package name. 
+Once there, run `pm uninstall -k --user 0 package.name` (replacing package.name with the name of the package you searched for earlier). You can also run `adb shell pm uninstall -k --user 0 package.name` if you choose. You should see "Success" after running the above command. If you see anything other than "Success", then either you don't have the app to begin with or you misspelled the package name. 
 
-Boom! That app you wanted to get rid of is gone for good.
+Boom! That app you wanted to get rid of is now gone for good.
 
-If you would like an example of commands, click <a href="https://github.com/ismaeltovar/bash-scripts/blob/main/adb-scripts/remove-unwanted-apps-android" target="_blank">here</a>.
+If you would like an example of adb commands, click <a href="https://github.com/ismaeltovar/bash-scripts/blob/main/adb-scripts/remove-unwanted-apps-android" target="_blank">here</a>.
 
 I hope this article helped! Make sure to share this article with someone who might find it useful. If you find an error or typo in one of my articles, please let me know.
 

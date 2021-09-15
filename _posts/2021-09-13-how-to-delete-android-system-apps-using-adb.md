@@ -60,7 +60,7 @@ If a dialog comes up that looks like this:
 
 Click on "Ok". This will allow your computer to connect to your Android phone using USB debugging.
 
-To check wether your Android device is connected to your computer, run `adb devices` (if you installed the SDK via your distribution's package manager). If you downloaded the SDK via Google's website, `cd` into the platform-tools directory that contains the file adb (adb.exe on Windows) and run `adb devices`.
+To check whether your Android device is connected to your computer, run `adb devices` (if you installed the SDK via your distribution's package manager). If you downloaded the SDK via Google's website, `cd` into the platform-tools directory that contains the file adb (adb.exe on Windows) and run `adb devices`.
 
 ![adb devices command output](../assets/img/adb-android/adb-devices.png)
 

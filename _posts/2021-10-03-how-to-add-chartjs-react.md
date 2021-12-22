@@ -15,7 +15,7 @@ Make sure you have `npm` and `node` installed on your system. To install chart.j
 
 ## Import the Chart.js library to a Javascript file
 
-According to the <a href="https://www.chartjs.org/docs/latest/getting-started/integration.html#bundlers-webpack-rollup-etc" target="_blank">documentation</a>:
+According to the [documentation](https://www.chartjs.org/docs/latest/getting-started/integration.html#bundlers-webpack-rollup-etc):
 
 > Chart.js 3 is tree-shakeable, so it is necessary to import and register the controllers, elements, scales and plugins you are going to use.
 
@@ -27,7 +27,7 @@ import Chart from 'chart.js/auto';
 
 ## Use the useEffect React Hook to execute Javascript code after the component is rendered
 
-For this tutorial, I will be using the sample chart provided by <a href="https://www.chartjs.org/docs/latest/getting-started/" target="_blank">chart.js's docs</a> (Licensed under the <a href="https://github.com/chartjs/Chart.js/blob/master/LICENSE.md" target="_blank">MIT license</a>).
+For this tutorial, I will be using the sample chart provided by [chart.js's docs](https://www.chartjs.org/docs/latest/getting-started/) (Licensed under the [MIT license](https://github.com/chartjs/Chart.js/blob/master/LICENSE.md)).
 
 To begin, make a new functional component returning a `<canvas>` element wrapped with a `<div>` element:
 
@@ -131,4 +131,4 @@ I hope this article helped. If you find an error or typo in one of my articles, 
 
 **NOTE: I AM NOT LIABLE FOR ANY DAMAGES THAT HAPPEN BECAUSE OF YOU FOLLOWING ONE OF MY ARTICLES. This is not to say the information here is incorrect. Please be careful.**
 
-Thumbnail image by source: <a href="https://pixabay.com/vectors/gui-interface-internet-program-2311261/" target="_blank">https://pixabay.com/vectors/gui-interface-internet-program-2311261/</a>
+Thumbnail image by source: [https://pixabay.com/vectors/gui-interface-internet-program-2311261/](https://pixabay.com/vectors/gui-interface-internet-program-2311261/)

@@ -18,7 +18,7 @@ Make sure you have the following items:
 
 ## Step 1: Install Android Debugging Bridge (ADB)
 
-ADB comes with the Android SDK platform-tools package. For instructions on how to install the SDK, head over to the <a href="https://developer.android.com/studio/command-line/adb" target="_blank">Android Developers website</a>. 
+ADB comes with the Android SDK platform-tools package. For instructions on how to install the SDK, head over to the [Android Developers website](https://developer.android.com/studio/command-line/adb).
 
 If you are using Linux, you can choose to use your distribution's package manager instead. For example, for Manjaro users, running `sudo pacman -Syu android-tools` will update your system and install the platform-tools SDK (which contains ADB). After that, run `adb --version` to see if ADB is installed. The version of ADB should come up, like so:
 
@@ -78,13 +78,13 @@ The first way is to get into your Android device's shell (by running `adb shell`
 
 I would not recommend this method because it is very easy to mistaken one package for another (which can have *really* bad consequences). Plus, it can get quite tedious at times.
 
-The second method you can use is to search for the app you want to remove on the <a href="https://play.google.com/store/apps" target="_blank">Google play store</a>. On the app's download page, you can find the package name at the end of the url in your browser's search bar.
+The second method you can use is to search for the app you want to remove on the [Google play store](https://play.google.com/store/apps). On the app's download page, you can find the package name at the end of the url in your browser's search bar.
 
 ![Google app download page](../assets/img/adb-android/google-play.png)
 
 In this example, the package name of the Google app is `com.google.android.googlequicksearchbox`. 
 
-The last method is kind of a last resort in case you can't find or identify an app's package name with any of the above methods. You can <a href="https://play.google.com/store/search?q=package%20name&c=apps" target="_blank">download an app in the app store that helps you look up the package name of a particular app.</a> My preferred app is <a href="https://play.google.com/store/apps/details?id=com.csdroid.pkg" target="_blank">Package Name Viewer 2.0</a>, but you can feel free to use whichever app you like.
+The last method is kind of a last resort in case you can't find or identify an app's package name with any of the above methods. You can [download an app in the app store that helps you look up the package name of a particular app](https://play.google.com/store/search?q=package%20name&c=apps). My preferred app is [Package Name Viewer 2.0](https://play.google.com/store/apps/details?id=com.csdroid.pkg), but you can feel free to use whichever app you like.
 
 ## Step 5: Run some commands
 
@@ -94,10 +94,10 @@ Once there, run `pm uninstall -k --user 0 package.name` (replacing package.name 
 
 Boom! That app you wanted to get rid of is now gone for good.
 
-If you would like an example of adb commands, click <a href="https://github.com/ismaeltovar/bash-scripts/blob/main/adb-scripts/remove-unwanted-apps-android" target="_blank">here</a>.
+If you would like an example of adb commands, click [here](https://github.com/ismaeltovar/bash-scripts/blob/main/adb-scripts/remove-unwanted-apps-android).
 
 I hope this article helped! Make sure to share this article with someone who might find it useful. If you find an error or typo in one of my articles, please let me know.
 
 **NOTE: I AM NOT LIABLE FOR ANY DAMAGES THAT HAPPEN BECAUSE OF YOU FOLLOWING ONE OF MY ARTICLES. This is not to say the information here is incorrect. Please be careful.**
 
-Thumbnail image by source: <a href="https://pixabay.com/photos/phone-android-apps-world-map-1869510/" target="_blank">https://pixabay.com/photos/phone-android-apps-world-map-1869510/</a>
+Thumbnail image by source: [https://pixabay.com/photos/phone-android-apps-world-map-1869510/](https://pixabay.com/photos/phone-android-apps-world-map-1869510/)

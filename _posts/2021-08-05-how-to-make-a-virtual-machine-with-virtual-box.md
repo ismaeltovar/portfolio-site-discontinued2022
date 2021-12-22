@@ -31,7 +31,7 @@ To have a virtual machine running smoothly, it would be best if you have:
 
 ## Step 1: Download VirtualBox from the official website
 
-Go to <a href="https://www.virtualbox.org/" target="_blank">https://www.virtualbox.org/</a> and click on the big blue button that says "Download VirtualBox" in the middle of the page.
+Go to [https://www.virtualbox.org/](https://www.virtualbox.org/) and click on the big blue button that says "Download VirtualBox" in the middle of the page.
 
 Under "Virtual box platform packages", click on the operating system that you are running to download the appropriate file. After the file is downloaded, run it and follow the steps on the installation process dialog (if downloading on Mac or Windows).
 
@@ -71,7 +71,7 @@ Congratulations! You have created a virtual machine. It should now appear on the
 
 ## Step 3: Download the ISO file for the operating system you would like to download and attach it to your virtual machine
 
-In order to continue, you will need to find and download the appropriate ISO and attach it to your virtual machine. The ISO file you download will depend on the operating system you would like to install. So if you would like to install Windows 10 on your virtual machine, then you would need to download the appropriate Windows ISO file from Microsoft's website. Please remember to be careful when downloading ISO files, as you don't want to use a pirated or compromised file. Make sure you are downloading the file from the correct site and make sure to check the file's integrity before you use it. If you don't know how to check a file's integrity, <a href="https://linuxconfig.org/how-to-verify-the-integrity-of-a-linux-distribution-iso-image/" target="_blank">here is a useful resource that could help</a>.
+In order to continue, you will need to find and download the appropriate ISO and attach it to your virtual machine. The ISO file you download will depend on the operating system you would like to install. So if you would like to install Windows 10 on your virtual machine, then you would need to download the appropriate Windows ISO file from Microsoft's website. Please remember to be careful when downloading ISO files, as you don't want to use a pirated or compromised file. Make sure you are downloading the file from the correct site and make sure to check the file's integrity before you use it. If you don't know how to check a file's integrity, [here is a useful resource that could help](https://linuxconfig.org/how-to-verify-the-integrity-of-a-linux-distribution-iso-image/).
 
 Once you downloaded the ISO file and checked it's integrity, you need to attach the file to your virtual machine's storage device. To do that, you will need to click on the "Settings" button next to the "New" button you clicked earlier. 
 
@@ -133,4 +133,4 @@ I hope this article helped! Make sure to share this article with someone who mig
 
 **NOTE: I AM NOT LIABLE FOR ANY DAMAGES THAT HAPPEN BECAUSE OF YOU FOLLOWING ONE OF MY ARTICLES. This is not to say the information here is incorrect. Please be careful.**
 
-Thumbnail image by source: <a href="https://pixabay.com/photos/board-electronics-computer-453758/" target="_blank">https://pixabay.com/photos/board-electronics-computer-453758/</a>
+Thumbnail image by source: [https://pixabay.com/photos/board-electronics-computer-453758/](https://pixabay.com/photos/board-electronics-computer-453758/)

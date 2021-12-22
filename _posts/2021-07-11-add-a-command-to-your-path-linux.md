@@ -77,10 +77,10 @@ If you get an output that looks something like this:
 which: no code in (/file/path:/file/path)
 ```
 
-Then too bad, so sad. You have failed your job. Jokes aside, open `.bashrc` and double check that you did not accidentally missed a typo when you added the `export PATH=$PATH` line at the end of `.bashrc`. Additionally, check that you typed the file path correctly (FYI, `/` stands for the root directory). If you need more help with file paths in Linux, <a href="https://opensource.com/article/19/8/understanding-file-paths-linux" target="_blank">here is a useful website that can help</a>.
+Then too bad, so sad. You have failed your job. Jokes aside, open `.bashrc` and double check that you did not accidentally missed a typo when you added the `export PATH=$PATH` line at the end of `.bashrc`. Additionally, check that you typed the file path correctly (FYI, `/` stands for the root directory). If you need more help with file paths in Linux, [here is a useful website that can help](https://opensource.com/article/19/8/understanding-file-paths-linux).
 
 I hope this article helped! Make sure to share this article with someone who might find it useful. If you find an error or typo in one of my articles, please let me know.
 
 **NOTE: I AM NOT LIABLE FOR ANY DAMAGES THAT HAPPEN BECAUSE OF YOU FOLLOWING ONE OF MY ARTICLES. This is not to say the information here is incorrect. Please be careful.**
 
-Thumbnail image by source: <a href="https://pixabay.com/vectors/bash-terminal-linux-unix-computer-161382/" target="_blank">https://pixabay.com/vectors/bash-terminal-linux-unix-computer-161382/</a>
+Thumbnail image by source: [https://pixabay.com/vectors/bash-terminal-linux-unix-computer-161382/](https://pixabay.com/vectors/bash-terminal-linux-unix-computer-161382/)

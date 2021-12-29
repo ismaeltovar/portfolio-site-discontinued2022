@@ -3,9 +3,23 @@ layout: post
 title: "How to add the Chart.js library to your React project"
 thumbnail-img: /assets/img/chart-js/charts.png
 date: 2021-10-03
-#last-updated: 
+last-updated: 2021-12-29
 tags: reactjs chartjs javascript programming
 ---
+
+# *** Article Update ***
+
+Soon after posting this article, I came across an error in my code that looked something like this:
+
+![React ChartJS error](../assets/img/chart-js/react-error-chartjs.png)
+
+This error appeared every time the chart data needed to be updated. To solve this particular issue, I declared a variable outside the component that would be in charge of holding the chart object and I made some if and else statements at the end of the `useEffect` hook that would make sure that the chart object acts appropriately.
+
+<script src="https://gist.github.com/ismaeltovar/8960cb53e3828886861e43e2672166a4.js"></script>
+
+This should solve the issue shown above.
+
+# Original Article
 
 Earlier this week, I was searching for ways to implement a chart into my React app until I came across a library called chart.js. It seemed like a splendid library, so I gave it a try. Here are the steps I used to make a functioning chart in my React app.
 

@@ -133,4 +133,4 @@ I hope this article helped! Make sure to share this article with someone who mig
 
 **NOTE: I AM NOT LIABLE FOR ANY DAMAGES THAT HAPPEN BECAUSE OF YOU FOLLOWING ONE OF MY ARTICLES. This is not to say the information here is incorrect. Please be careful.**
 
-Thumbnail image by source: [https://pixabay.com/photos/board-electronics-computer-453758/](https://pixabay.com/photos/board-electronics-computer-453758/)
+Thumbnail image source: [https://pixabay.com/photos/board-electronics-computer-453758/](https://pixabay.com/photos/board-electronics-computer-453758/)

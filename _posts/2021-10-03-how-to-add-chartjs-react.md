@@ -145,4 +145,4 @@ I hope this article helped. If you find an error or typo in one of my articles, 
 
 **NOTE: I AM NOT LIABLE FOR ANY DAMAGES THAT HAPPEN BECAUSE OF YOU FOLLOWING ONE OF MY ARTICLES. This is not to say the information here is incorrect. Please be careful.**
 
-Thumbnail image by source: [https://pixabay.com/vectors/gui-interface-internet-program-2311261/](https://pixabay.com/vectors/gui-interface-internet-program-2311261/)
+Thumbnail image source: [https://pixabay.com/vectors/gui-interface-internet-program-2311261/](https://pixabay.com/vectors/gui-interface-internet-program-2311261/)

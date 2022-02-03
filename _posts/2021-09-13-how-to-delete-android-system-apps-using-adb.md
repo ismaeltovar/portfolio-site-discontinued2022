@@ -100,4 +100,4 @@ I hope this article helped! Make sure to share this article with someone who mig
 
 **NOTE: I AM NOT LIABLE FOR ANY DAMAGES THAT HAPPEN BECAUSE OF YOU FOLLOWING ONE OF MY ARTICLES. This is not to say the information here is incorrect. Please be careful.**
 
-Thumbnail image by source: [https://pixabay.com/photos/phone-android-apps-world-map-1869510/](https://pixabay.com/photos/phone-android-apps-world-map-1869510/)
+Thumbnail image source: [https://pixabay.com/photos/phone-android-apps-world-map-1869510/](https://pixabay.com/photos/phone-android-apps-world-map-1869510/)

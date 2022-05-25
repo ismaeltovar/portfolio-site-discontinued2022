@@ -29,4 +29,4 @@ Sungju Lee was a boy who escaped North Korea in his late teens. After his parent
 
 ### Citation:
 
-McClelland, Susan, and Sungju Lee. Every Falling Star: The True Story of How i Survived and Escaped North Korea. HARRY N ABRAMS, 2016. 
+McClelland, Susan, and Sungju Lee. *Every Falling Star: The True Story of How i Survived and Escaped North Korea*. HARRY N ABRAMS, 2016. 

@@ -185,3 +185,7 @@ tags: bookNotes D.Goggins self-help philosophy
    * Stretching will help with your overall health and in injury prevention
    * "What if?" is the question that reminds you that you don't know what you are capable of until you put everything on the line
    * We collectively want to numb life's suffering by seeking comfort and safety
+
+### Citation:
+
+Goggins, David. *Can't Hurt Me: Master Your Mind and Defy the Odds*. Lioncrest Publishing, 2018. 

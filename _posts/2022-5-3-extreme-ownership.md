@@ -104,3 +104,7 @@ tags: bookNotes J.Willink L.Babin leadership
    * Leaders need to know that they are in charged of balancing extremes in multiple scenarios
    * Leaders need to know when to follow and not let their egos take over
    * Good leaders must balance both extremes when it comes to any character trait like confidence and cockiness
+
+### Citation:
+
+Willink, Jocko, and Leif Babin. *Extreme Ownership: How U.S. Navy Seals Lead and Win*. St. Martin's Press, 2015. 

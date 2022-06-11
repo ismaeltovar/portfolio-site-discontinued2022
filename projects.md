@@ -16,7 +16,18 @@ css: ./assets/css/projects.css
       </div>
     </a>
   </div>
-    <div class="project-preview">
+  <div class="project-preview">
+    <a href="https://github.com/ismaeltovar/react-battleship">
+      <h2 class="post-title">React Battleship</h2>
+      <p class="project-description">Battleship on the web created using React.js and SASS.</p>
+      <div class="gh-buttons">
+        <a class="github-button" href="https://github.com/ismaeltovar/react-battleship/subscription">Watch</a>
+        <a class="github-button" href="https://github.com/ismaeltovar/react-battleship">Star</a>
+        <a class="github-button" href="https://github.com/ismaeltovar/react-battleship/fork">Fork</a>
+      </div>
+    </a>
+  </div>
+  <div class="project-preview">
     <a href="https://github.com/ismaeltovar/ismaeltovar.com">
       <h2 class="post-title">IsmaelTovar.com (this website)</h2>
       <p class="project-description">My portfolio/blog site.</p>

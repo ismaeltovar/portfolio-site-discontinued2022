@@ -3,9 +3,7 @@ layout: page
 title: About Me
 ---
 
-
-
-Howdy! I'm Ismael Tovar, a High School student in the United States. I have a wide variety of interests, but I am mainly interested in technology and computers. Currently, I am learning Javascript, Html, CSS, and React. You can follow me on any of my social media profiles (links are located in the footer of this website).
+Howdy! I'm Ismael Tovar, a freshman at the University of Texas at Arlington interested in starting a career in Software Engineering. As you can tell from my home page, I am always eager to learn more and explore the world around me. I am currently open to summer internship opportunities. You can follow me on any of my social media profiles (links are located in the footer of this website).
 
 To checkout the projects I am working on, [click here](https://github.com/ismaeltovar?tab=repositories).
 

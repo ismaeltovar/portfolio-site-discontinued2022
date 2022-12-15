@@ -1,3 +1,4 @@
+# NOTE: This project is discontinued. My current portfolio site can be found [here](https://github.com/ismaeltovar/ismaeltovar.com).
 ## IsmaelTovar.com
 
 Jekyll generated site using the Beautiful Jekyll Theme.
